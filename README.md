@@ -8,10 +8,15 @@ A simple but useful repository that explains the use of some events from the Eri
 const { Client } = require("eris");
 const client = new Client("BOT_TOKEN");
 
+// shard ready
+/* Emitted when the shard becomes ready to start working. */
+client.on("shardReady", (shardId) => {
+    console.log(`Shard ${shardId} initialized with sucess!`)
+})
 // ready
 /* Emitted when the client becomes ready to start working. */
 client.on("ready", () => {
-    console.log("Ready!");
+    console.log("All the shards was initialized with sucess");
 });
 
 // message
