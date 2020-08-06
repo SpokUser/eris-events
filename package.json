@@ -1,0 +1,22 @@
+{
+  "name": "eris-events",
+  "version": "1.0.0",
+  "description": "A simple but useful repository that explains the use of some events from the Eris api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodei index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoGHz/eris-events.git"
+  },
+  "author": "LeoGHz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoGHz/eris-events/issues"
+  },
+  "homepage": "https://github.com/LeoGHz/eris-events#readme",
+  "dependencies": {
+    "eris": "^0.13.3"
+  }
+}
